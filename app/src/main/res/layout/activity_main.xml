@@ -7,44 +7,29 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.martins.martinapp.MainActivity">
+    tools:context="com.example.masn3d.mytestapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TestButton"
+        android:id="@+id/testButton"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="@string/fandenRes"
-        android:id="@+id/fanden"
-        android:layout_alignParentTop="true"
+        android:text="Request All Posts:"
+        android:id="@+id/testText"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/editText"
-        android:layout_below="@+id/fanden"
-        android:layout_marginTop="80dp"
-        android:layout_alignRight="@+id/fanden"
-        android:layout_alignEnd="@+id/fanden"
-        android:layout_alignLeft="@+id/fanden"
-        android:layout_alignStart="@+id/fanden" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:ems="10"
-        android:id="@+id/editText2"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hejhejRes"
-        android:id="@+id/hejhejBtn"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="62dp" />
 </RelativeLayout>
