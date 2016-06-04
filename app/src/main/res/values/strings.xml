@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MartinApp</string>
+    <string name="fandenRes">Hvem fanden er du?</string>
+    <string name="hejhejRes">HejHej</string>
+</resources>
